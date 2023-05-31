@@ -21,6 +21,8 @@ body {
     color: var(--color-blank);
 }
 
+/* Header Section */
+
 .header {
     padding: 2% 0% 0% 10%;
 }
@@ -30,7 +32,7 @@ body {
     gap: 80px;
 }
 
-.header-menu-item{
+.header-menu-item {
     font-family: var(--font-secondary);
     font-size: 1.5rem;
     font-weight: 600;
@@ -38,11 +40,13 @@ body {
     color: var(--color-blue);
 }
 
-.header-menu-item:hover{
+.header-menu-item:hover {
     font-weight: 1000;
     text-decoration: underline;
     text-shadow: var(--color-blue);
 }
+
+/* Main Section */
 
 .presentation {
     padding: 8% 15%;
@@ -109,13 +113,15 @@ body {
 
 .presentation-link-style:hover {
     background-color: var(--color-hover);
-    box-shadow:0px 0px 0px 2px var(--color-blue) inset;
+    box-shadow: 0px 0px 0px 2px var(--color-blue) inset;
 }
 
 .presentation-image-profile {
     width: 650px;
     border-radius: 30px;
 }
+
+/* Footer Section */
 
 .footer {
     color: var(--color-black);
@@ -126,6 +132,8 @@ body {
     font-size: 1.5rem;
     font-weight: 400;
 }
+
+/* Responsive Section */
 
 @media (max-width: 1270px) {
     .header {
