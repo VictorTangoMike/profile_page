@@ -129,7 +129,7 @@ body {
 }
 
 .presentation-image-profile {
-    width: 700px;
+    width: 550px;
     border-radius: 30px;
     border-color: var(--color-black);
 }
@@ -152,7 +152,7 @@ body {
 
 /* Responsive Section */
 
-@media (max-width: 1270px) {
+@media (max-width: 1370px) {
     .header {
         padding: 10%;
     }
