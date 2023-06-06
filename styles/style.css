@@ -154,7 +154,7 @@ body {
 
 @media (max-width: 1370px) {
     .header {
-        padding: 10%;
+        padding: 4%;
     }
 
     .items {
@@ -163,7 +163,7 @@ body {
 
     .presentation {
         flex-direction: column-reverse;
-        padding: 5%;
+        padding: 5% 10%;
     }
 
     .presentation-content {
